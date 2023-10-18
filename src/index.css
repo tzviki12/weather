@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+
+  position: relative;
+}
+
+.container {
+  /* position:absolute; */
+
+  /* margin-top: 25%;
+  margin-bottom: 70%; */
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  /* background-color: red; */
+
+  /* flex-direction: column; */
+}
+
+.blocks {
+  /* width: 100%;
+  height: 50%; */
+  display: flex;
+  /* justify-content: center;  */
+  align-items: center;
+
+  /* justify-content: space-between; */
+  justify-content: space-around;
+  /* gap: 1px;  */
+
+
+}
+
+.block {
+  /* position:relative; */
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: 30px;
+  width: 20rem;
+  height: 20rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  gap: 15px;
+  position: relative;
+}
+
+.hello {
+  /* display: flex;
+  
+  justify-content: center;
+  /* position: absolute; */
+  /* font-size: 50px;
+  margin-top: 100px;
+  /* color: red; */
+
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  color: red;
+  position: absolute;
+  top: 13%;
+  /* מניעת תחוזזות לאמצע */
+  left: 27%;
+
+}
